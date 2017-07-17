@@ -313,10 +313,18 @@ enum {
     ACONFIGURATION_UI_MODE_NIGHT_YES = 0x2,
 
     /**
-     * UI blackout mode: value that corresponds to
-     * <a href="@dacRoot/guide/topics/resources/providing-resources.html#NightQualifier">blackout</a> resource qualifier specified.
+     * UI night mode: value that corresponds to NightQualifier "darkkat"
      */
-    ACONFIGURATION_UI_MODE_NIGHT_BLACKOUT = 0x3,
+    ACONFIGURATION_UI_MODE_NIGHT_YES_DARKKAT = 0x3,
+
+    /**
+     * UI night mode: value that corresponds to NightQualifier "whiteout"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEOUT = 0x4,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "blackout"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_YES_BLACKOUT = 0x5,
 
     /** Screen width DPI: not specified. */
     ACONFIGURATION_SCREEN_WIDTH_DP_ANY = 0x0000,
