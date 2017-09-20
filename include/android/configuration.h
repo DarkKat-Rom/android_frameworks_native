@@ -316,11 +316,6 @@ enum {
      * UI night mode: value that corresponds to NightQualifier "darkkat"
      */
     ACONFIGURATION_UI_MODE_NIGHT_YES_DARKKAT = 0x3,
-
-    /**
-     * UI night mode: value that corresponds to NightQualifier "whiteout"
-     */
-    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEOUT = 0x4,
     /**
      * UI night mode: value that corresponds to NightQualifier "blackout"
      */
